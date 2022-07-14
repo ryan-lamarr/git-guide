@@ -36,7 +36,8 @@ git commit --amend --author="{username} <{email}>"   修改邮箱，注释和作
 ```
 git rebase --continue
 ```
-如果是修改多条记录，重复以上步骤，直到出现如下信息：  Successfully rebased and updated refs/heads/master.  
+如果是修改多条记录，重复以上步骤，直到出现如下信息：  
+Successfully rebased and updated refs/heads/master.  
 最后，将本地修改的内容push到远程仓库，注意多人协作时，需要考虑是否覆盖别人的代码
 ```
 git push --force 远程仓库名 远程分支名
