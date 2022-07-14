@@ -15,10 +15,10 @@ git commit --amend   修改注释
 git commit --amend --author="{username} <{email}>"
 ```
 此时进入vi界面，i进入编辑模式，修改后输入:wq保存退出  
-
+  
+  
 2. 修改某几次提交记录  
-
-  先查看对应修改的commit ID  
+先查看对应修改的commit ID  
 ```
 git log --oneline  查看保护主要信息的提交log
 ```
