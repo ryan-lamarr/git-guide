@@ -10,10 +10,10 @@ git branch -D dev    强制删除所有分支，如果是dev
 ### 修改个人提交记录,包括作者，邮箱  
 
 1. 修改最后一次提交记录  
-···
+```
 git commit --amend   修改注释  
 git commit --amend --author="{username} <{email}>"
-···
+```
 此时进入vi界面，i进入编辑模式，修改后输入:wq保存退出  
 
 
