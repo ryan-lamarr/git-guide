@@ -18,7 +18,7 @@ git commit --amend --author="{username} <{email}>"
 
 2. 修改某几次提交记录  
 
-先查看对应修改的commit ID  
+  先查看对应修改的commit ID  
 ```
 git log --oneline  查看保护主要信息的提交log
 ```
