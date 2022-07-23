@@ -38,5 +38,5 @@ git add remote 给定仓库别名 新指定的仓库地址
 
 #### 修改分支名  
 ```
-git branch -m/M
+git branch -m/M 新分支名
 ```
