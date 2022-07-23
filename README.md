@@ -14,6 +14,12 @@ git push -u origin main
 ```
 git remote add origin 你的github空仓库地址
 git branch -M main  
+/* 
+将本地的main分支推送到origin主机，同时指定origin为默认主机，后面就可以不加任何参数使用git push了.
+不带任何参数的git push，默认只推送当前分支到远程仓库，这种方式叫simple模式.
+另外一种是matching，这种模式下讲本地所有对应分支推送到远程仓库。git2.0以后默认simple模式，可通过git config 设置：  
+$ git config --global push.default matching/simple
+*/
 git push -u origin main
 ```
 
