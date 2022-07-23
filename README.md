@@ -1,6 +1,6 @@
 # git-guide
 Git使用指南
-#### 配置ssh秘钥，免登录  
+#### 在GitHub上配置ssh秘钥，免登录  
 
 #### Git基本操作
 ```
