@@ -22,7 +22,7 @@ git push -u参数说明:
 不带任何参数的git push，默认只推送当前分支到远程仓库，这种方式叫simple模式.
 另外一种是matching，这种模式下讲本地所有对应分支推送到远程仓库。git2.0以后默认simple模式，可通过git config 设置：  
 ```
-$ git config --global push.default matching/simple
+$ git config --global push.default matching/simple   // 二选一
 ```
 
 #### 修改分支名  
