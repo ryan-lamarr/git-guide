@@ -8,7 +8,7 @@ git clone 仓库地址   // 将代码克隆到本地
 git branch -a  //查看本地及远程分支
 git checkout dev   // 切换到指定分支（这里是dev分支）
 git status // 查看仓库状态
-git add  . or src // 将变更添加到暂存区(.表示当前路径下的全部文件，或指定目录，或目录下具体文件)
+git add  . or src // 将变更添加到暂存区(.表示当前路径下的全部文件，或指定目录src，或目录下具体文件src/filename)
 git commit -m "comment info"  // 将暂存区文件变更提交到本地仓库
 git pull origin main    // 同步远程分支到本地
 git push origin
