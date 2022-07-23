@@ -4,7 +4,7 @@ Git使用指南
 
 #### Git基本操作
 ```
-git clone 仓库地址
+git clone 仓库地址   // 将代码克隆到本地
 git branch -a  //查看本地及远程分支
 git checkout dev   // 切换到指定分支（这里是dev分支）
 git status // 查看仓库状态
