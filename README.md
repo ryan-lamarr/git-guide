@@ -24,6 +24,17 @@ git push -u参数说明:
 ```
 $ git config --global push.default matching/simple   // 二选一
 ```
+#### 修改远程仓库地址
+- 直接修改
+```
+git remote -v    // 查看远程仓库名
+git remote set-url 远程仓库别名  新的远程仓库地址
+```
+- 先删除再修改
+```
+git remote rm 当前仓库别名
+git add remote 给定仓库别名 新指定的仓库地址
+```
 
 #### 修改分支名  
 ```
